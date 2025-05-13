@@ -1,0 +1,61 @@
+# Python/Flask Backend .gitignore
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.env/
+.ENV/
+.python-version
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Flask instance folder
+instance/
+
+# SQLite database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Environment variables
+.env
+.flaskenv
+.env.*
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+
+# Logs
+logs/
+*.log
+
+# Database migrations (optional, depending on your workflow)
+# migrations/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db

@@ -3,51 +3,52 @@
 ## Current Priority Tasks
 
 ### Project Setup & Infrastructure
-- [ ] Initialize React frontend project with Redux toolkit
-- [ ] Set up Flask backend with project structure
-- [ ] Configure PostgreSQL database
+- [x] Initialize React frontend project with Redux toolkit
+- [x] Set up Flask backend with project structure
+- [x] Configure PostgreSQL database (schema design)
 - [ ] Set up GitHub repository with proper branching strategy
 - [ ] Create development environment with Docker
 
 ### Authentication System
-- [ ] Design and implement user registration flow
-- [ ] Build login functionality with JWT
+- [x] Design and implement user registration flow
+- [x] Build login functionality with JWT
 - [ ] Create password reset functionality  
-- [ ] Implement role-based authorization system
-- [ ] Set up user verification process
+- [x] Implement role-based authorization system
+- [x] Set up user verification process
 
 ### User Profile System
-- [ ] Design database schema for user profiles
-- [ ] Create profile creation form components
-- [ ] Implement profile update functionality
-- [ ] Build profile completion tracking
-- [ ] Create profile view/display components
+- [x] Design database schema for user profiles
+- [x] Create profile creation form components
+- [x] Implement profile update functionality
+- [x] Build profile completion tracking
+- [x] Create profile view/display components
 
 ### Resource Management
-- [ ] Design resource database schema
-- [ ] Create resource posting form for providers
-- [ ] Build resource listing components
-- [ ] Implement search and filter functionality
-- [ ] Create resource detail view
+- [x] Design resource database schema
+- [x] Create resource posting form for providers
+- [x] Build resource listing components
+- [x] Implement search and filter functionality
+- [x] Create resource detail view
 
 ### Admin Dashboard
-- [ ] Design admin dashboard layout
-- [ ] Implement user management interface
-- [ ] Create basic analytics components
-- [ ] Build resource approval workflow
+- [x] Design admin dashboard layout
+- [x] Implement user management interface
+- [x] Create basic analytics components
+- [x] Build resource approval workflow
+- [x] Build application review interface
 - [ ] Set up data export functionality
 
 ### API Development
-- [ ] Create user API endpoints
-- [ ] Build profile API endpoints
-- [ ] Implement resource API endpoints
-- [ ] Develop analytics API endpoints
+- [x] Create user API endpoints
+- [x] Build profile API endpoints
+- [x] Implement resource API endpoints
+- [x] Develop analytics API endpoints
 - [ ] Set up API documentation with Swagger
 
 ## Backlog
 
 ### Enhanced Features
-- [ ] Implement notification system
+- [x] Implement notification system (basic alerts)
 - [ ] Build storytelling/feedback components
 - [ ] Create advanced matching algorithm
 - [ ] Add geographical visualization for resources
@@ -72,3 +73,15 @@
 - Mobile-first design is critical given target user demographics
 - Consider privacy implications at every stage of development
 - Plan for scalability as user base grows
+
+## Discovered During Work (2025-05-13)
+- [ ] Implement form validation with more detailed error messages
+- [ ] Create unit tests for API endpoints
+- [ ] Create unit tests for React components
+- [ ] Add loading states and error handling for all API calls
+- [ ] Implement pagination for resource listings
+- [ ] Add image upload functionality for user profiles and resources
+- [ ] Implement email verification flow
+- [x] Create database seeding scripts for development
+- [ ] Implement proper error logging on the backend
+- [ ] Add dark mode theme support
